@@ -1,0 +1,31 @@
+{
+  "name": "almoasasa",
+  "private": true,
+  "version": "1.0.0",
+  "description": "تطبيق ويب عربي RTL متجاوب باسم المؤسسة - نموذج تجريبي",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "lint": "echo 'No linting configured yet'",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.3.3",
+    "@types/react": "^18.3.31",
+    "@types/react-dom": "^18.3.7",
+    "@vitejs/plugin-react": "^4.3.3",
+    "typescript": "~7.0.2",
+    "vite": "^8.3.5"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.6.2",
+    "lucide-react": "^1.66.0",
+    "postcss": "^8.5.32",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^7.18.5",
+    "tailwindcss": "^4.3.3"
+  }
+}
